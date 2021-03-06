@@ -15,6 +15,30 @@ import com.aventstack.extentreports.Status;
 public class gitTests extends BaseClass {
 	
 	@Test
+	
+	public void testone1()
+	{
+        // creates a toggle for the given test, adds all log events under it    
+        ExtentTest test1 = extent.createTest("Test One", "Sample Test1");
+
+        // log(Status, details)
+        test1.log(Status.INFO, "Test one started");
+
+        
+		driver.get("https://google.com");
+        test1.log(Status.PASS, "navigate to https://google.com");
+
+		driver.findElement(By.name("q")).sendKeys("umang");
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+        test1.log(Status.INFO, "Test one completed");
+
+		System.out.println("cmpleted testone");
+	}
+	
 	public void testone()
 	{
         // creates a toggle for the given test, adds all log events under it    
