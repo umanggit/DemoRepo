@@ -1,0 +1,8 @@
+[ERROR] 2020-10-07 15:27:53.007 [main] log4jclassdemo - this is error
+[WARN ] 2020-10-07 15:27:53.013 [main] log4jclassdemo - this is warning
+[ERROR] 2020-10-07 15:31:29.111 [main] log4jclassdemo - this is error
+[WARN ] 2020-10-07 15:31:29.120 [main] log4jclassdemo - this is warning
+[ERROR] 2020-10-07 15:58:04.823 [main] log4jclassdemo - this is error
+[WARN ] 2020-10-07 15:58:04.834 [main] log4jclassdemo - this is warning
+[ERROR] 2020-10-07 16:31:10.925 [main] log4jclassdemo - this is error
+[WARN ] 2020-10-07 16:31:10.933 [main] log4jclassdemo - this is warning
