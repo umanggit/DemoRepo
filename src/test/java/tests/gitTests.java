@@ -12,17 +12,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class Tests extends BaseClass {
+public class gitTests extends BaseClass {
 	
 	@Test
-	
-	public void newTest()
-	
-	{
-		System.out.println();
-		
-	}
-	
 	public void testone()
 	{
         // creates a toggle for the given test, adds all log events under it    
